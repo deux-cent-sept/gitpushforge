@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Maxence et Vincent
+subtitle: "It's a matter of quality"
+description: 'Blog de Maxence et Vincent'
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: Vincent Meziane
+language: fr
+timezone: 'Europe/Paris'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://deux-cent-sept.github.io/blog
-permalink: :year/:month/:day/:title/
+url: https://deux-cent-sept.github.io/blog
+permalink: /:title:day:month:year/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -103,5 +103,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: 'git@github.com:deux-cent-sept/blog.git'
-  branch: master
+  repo: 'git@github.com:deux-cent-sept/deux-cent-sept.github.io.git'
+  branch: main
