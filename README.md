@@ -62,6 +62,7 @@ Exécutez la commande `hexo generate` afin de générer les fichiers statiques d
 
 >Penser aux plug-ins hexo pour les fonctionnalités existantes.
 
+- [ ]  Configurer le blog pour ne pas travailler sur main, et pour deployer quand on merge une PR dans main.
 - [ ]  Choix d'un thème
 - [ ]  Mise en place d'un flux RSS.
 - [ ]  Intégration des commentaires utilisateurs.
