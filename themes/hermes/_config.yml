@@ -1,6 +1,6 @@
 menu:
-    Blog: /
-    Archive: archives/
+    Accueil: /
+    Archives: archives/
     Feed: atom.xml
 
 favicon: favicon.png
