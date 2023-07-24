@@ -1,17 +1,18 @@
 header {
-    min-height: 60px;
-
-    .logo-link {
-        float: left;
-    }
+    min-height: 100px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2em !important;
+    margin: 0;
     
     .nav {
-        float: right;
-        left: 80px;
-    }
-
-    .logo-link img {
-        height: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
     }
 
     .nav-list-item {
@@ -20,6 +21,23 @@ header {
         a {
             font-size: 16px;
             line-height: 1.4;
+        }
+    }
+
+    #logo_small img {
+        max-height: 25px;
+    }
+ 
+    #main_logo{ 
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        #main_logo_subtitle{
+            font-size: 12px;
+            line-height: 1.4;
+            text-align: center;
+            margin: 0;
         }
     }
 }
