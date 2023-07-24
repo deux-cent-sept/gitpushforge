@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Maxence et Vincent
-subtitle: "It's a matter of quality"
-description: 'Blog de Maxence et Vincent'
+title: Git push --forge
+subtitle: "Forger la qualité, commit après commit."
+description: 'Forger la qualité, commit après commit.'
 keywords:
 author: Maxence Mille & Vincent Meziane
 language: fr
@@ -13,7 +13,7 @@ timezone: 'Europe/Paris'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://deux-cent-sept.github.io
+url: https://git-push-forge.github.io
 permalink: /:month:year/:title/
 permalink_defaults:
 pretty_urls:
@@ -103,7 +103,7 @@ theme: hermes
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: 'git@github.com:deux-cent-sept/deux-cent-sept.github.io.git'
+  repo: 'git@github.com:deux-cent-sept/git-push-forge.github.io.git'
   branch: gh-pages
 
 # Hermes Theme config
