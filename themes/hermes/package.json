@@ -4,7 +4,7 @@
   "description": "A hexo theme inspired by vuejs.org",
   "main": "index.js",
   "scripts": {
-    "sass": "gulp sass"
+    "sass": "gulp watch"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,8 @@
   "homepage": "https://github.com/claymcleod/hexo-theme-hermes#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.1",
-    "gulp-sass": "^4.0.2"
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^9.0.0"
   }
 }

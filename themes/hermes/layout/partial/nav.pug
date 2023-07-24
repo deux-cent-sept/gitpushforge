@@ -1,4 +1,7 @@
 ul.nav.nav-list
+    if !is_home()
+        li.nav-list-item
+            include logo_small
     each value, key in theme.menu
         li.nav-list-item
             - var re = /^(http|https):\/\/*/gi;
