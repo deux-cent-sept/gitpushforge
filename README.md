@@ -19,7 +19,7 @@ npm install -g hexo-cli
 
 Cloner le projet: 
 ```bash
-git clone git@github.com:deux-cent-sept/git-push-forge.github.io.git
+git clone git@github.com:git-push-forge/blog.git
 ```
 
 Installer les dépendances: 
@@ -47,7 +47,7 @@ La cible du déploiement est spécifié dans `_config.yml` de cette manière
 ```yml
 deploy:
   type: 'git'
-  repo: 'git@github.com:deux-cent-sept/git-push-forge.github.io.git'
+  repo: 'git@github.com:git-push-forge/blog.git'
   branch: gh-pages
 ```
 >En effet, c'est la branche `gh-pages` qui héberge les fichiers statiques qui servent à deployer le blog, cette branche est protégée et ne doit pas être modifiée manuellement.
