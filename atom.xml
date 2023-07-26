@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Git push --forge</title>
+  
+  <subtitle>Forger la qualité, commit après commit.</subtitle>
+  <link href="https://git-push-forge.github.io/blog/atom.xml" rel="self"/>
+  
+  <link href="https://git-push-forge.github.io/blog/"/>
+  <updated>2023-07-25T06:46:38.860Z</updated>
+  <id>https://git-push-forge.github.io/blog/</id>
+  
+  <author>
+    <name>Maxence Mille &amp; Vincent Meziane</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://git-push-forge.github.io/blog/072023/hello-world/"/>
+    <id>https://git-push-forge.github.io/blog/072023/hello-world/</id>
+    <published>2023-07-25T06:46:38.860Z</published>
+    <updated>2023-07-25T06:46:38.860Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    <summary type="html">This is an excerpt</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Readme du projet</title>
+    <link href="https://git-push-forge.github.io/blog/072023/Readme-du-projet/"/>
+    <id>https://git-push-forge.github.io/blog/072023/Readme-du-projet/</id>
+    <published>2023-07-09T18:31:57.000Z</published>
+    <updated>2023-07-25T07:30:15.777Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Blog-HEXO-📝"><a href="#Blog-HEXO-📝" class="headerlink" title="Blog HEXO 📝"></a>Blog HEXO 📝</h1><p>Ce fichier README contient des informations utiles pour la gestion et le déploiement du blog.</p><h2 id="Table-des-matieres-🔗"><a href="#Table-des-matieres-🔗" class="headerlink" title="Table des matières 🔗"></a>Table des matières 🔗</h2><ul><li><a href="#installation">Installation</a></li><li><a href="#cr%C3%A9er-un-article">Créer un article</a></li><li><a href="#d%C3%A9ploiement-sur-github">Déploiement sur GitHub</a></li><li><a href="#roadmap-des-features-%C3%A0-venir">Roadmap des features à venir</a></li></ul><hr><h2 id="Installation-🏗️"><a href="#Installation-🏗️" class="headerlink" title="Installation 🏗️"></a>Installation 🏗️</h2><p>Vous devez posséder la cli Hexo pour pouvoir gérer le blog. Pour l’installer, exécutez la commande suivante :</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure><p>Cloner le projet: </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git <span class="built_in">clone</span> git@github.com:git-push-forge/blog.git</span><br></pre></td></tr></table></figure><p>Installer les dépendances: </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure><hr><h2 id="Creer-un-article-📑"><a href="#Creer-un-article-📑" class="headerlink" title="Créer un article 📑"></a>Créer un article 📑</h2><p>Pour créer un nouvel article sur mon blog, suivez les étapes suivantes :</p><ol><li>Exécutez la commande <code>hexo new post &quot;Titre de l&#39;article&quot;</code>.</li><li>Un fichier markdown sera créé dans le répertoire <code>_posts</code>.</li><li>Ouvrez ce fichier et commencez à rédiger votre article en utilisant la syntaxe Markdown.</li></ol><hr><h2 id="Deploiement-sur-GitHub-🚀"><a href="#Deploiement-sur-GitHub-🚀" class="headerlink" title="Déploiement sur GitHub 🚀"></a>Déploiement sur GitHub 🚀</h2><p>Le blog déployé sur GitHub Pages. Voici comment déployer les modifications :</p><p>La cible du déploiement est spécifié dans <code>_config.yml</code> de cette manière</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">&#x27;git&#x27;</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">&#x27;git@github.com:git-push-forge/blog.git&#x27;</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">gh-pages</span></span><br></pre></td></tr></table></figure><blockquote><p>En effet, c’est la branche <code>gh-pages</code> qui héberge les fichiers statiques qui servent à deployer le blog, cette branche est protégée et ne doit pas être modifiée manuellement.</p></blockquote><p>Exécutez la commande <code>hexo generate</code> afin de générer les fichiers statiques du blog, puis <code>hexo deploy</code> pour publier ces fichiers sur la branche <code>gh-pages</code>.</p><blockquote><p>Un makefile a été créé et vous pouvez tout simplement lancer la commande <code>make deploy</code> qui lancera elle même ces deux commandes.</p></blockquote><hr><h2 id="Roadmap-des-features-a-venir-✨"><a href="#Roadmap-des-features-a-venir-✨" class="headerlink" title="Roadmap des features à venir ✨"></a>Roadmap des features à venir ✨</h2><blockquote><p>Penser aux plug-ins hexo pour les fonctionnalités existantes.</p></blockquote><ul><li><input disabled="" type="checkbox"> Configurer le blog pour ne pas travailler sur main, et pour deployer quand on merge une PR dans main.</li><li><input disabled="" type="checkbox"> Choix d’un thème</li><li><input disabled="" type="checkbox"> Mise en place d’un flux RSS.</li><li><input disabled="" type="checkbox"> Intégration des commentaires utilisateurs.</li><li><input disabled="" type="checkbox"> Ajout d’un système de recherche.</li></ul>]]></content>
+    
+    
+    <summary type="html">This is an excerpt</summary>
+    
+    
+    
+    
+  </entry>
+  
+</feed>
