@@ -28,4 +28,6 @@ jobs:
       run: hexo generate
 
     - name: Deploy to GitHub Pages
-      run: hexo deploy
+      env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+      run: hexo deploy-ci
