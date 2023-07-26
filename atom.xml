@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Git push --forge</title>
+  
+  <subtitle>Forger la qualité, commit après commit.</subtitle>
+  <link href="https://git-push-forge.github.io/blog/atom.xml" rel="self"/>
+  
+  <link href="https://git-push-forge.github.io/blog/"/>
+  <updated>2023-07-26T19:50:22.658Z</updated>
+  <id>https://git-push-forge.github.io/blog/</id>
+  
+  <author>
+    <name>Maxence Mille &amp; Vincent Meziane</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Utiliser un Makefile dans Symfony</title>
+    <link href="https://git-push-forge.github.io/blog/072023/makefile-symfony/"/>
+    <id>https://git-push-forge.github.io/blog/072023/makefile-symfony/</id>
+    <published>2023-07-26T19:47:16.000Z</published>
+    <updated>2023-07-26T19:50:22.658Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h3><p>Le Makefile est un outil puissant utilisé dans le développement logiciel pour automatiser des tâches courantes. Bien que traditionnellement associé au système d’exploitation Unix et au projet GNU, il est largement utilisé dans divers environnements, y compris les projets Symfony. </p><p>Dans cet article, nous allons voir comment mettre en place un Makefile avec Symfony , comment le faire proprement et de manière facilitée grâce à l’autocomplétion des commandes.</p><blockquote><p>Le Makefile va nous permettre de centraliser toutes les commandes disponibles dans notre projets. Depuis les commandes liées l’infrastructure du projet, en passant par la gestion des dépendances, le lancement des outils mais aussi possiblement le debuguage.</p></blockquote>]]></content>
+    
+    
+    <summary type="html">Le Makefile est un outil puissant utilisé dans le développement logiciel pour automatiser des tâches courantes. Bien que traditionnellement associé au système d&#39;exploitation Unix et au projet GNU, il est largement utilisé dans divers environnements, y compris les projets Symfony.</summary>
+    
+    
+    
+    
+    <category term="Outils, Symfony, Makefile" scheme="https://git-push-forge.github.io/blog/tags/Outils-Symfony-Makefile/"/>
+    
+  </entry>
+  
+</feed>
