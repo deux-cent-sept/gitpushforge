@@ -28,6 +28,14 @@ jobs:
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
       
+      - name: Setup SSH Keys and known_hosts
+        env:
+            SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+            mkdir -p ~/.ssh
+            ssh-keyscan github.com >> ~/.ssh/known_hosts
+            ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+            ssh-add - <<< "${{ secrets.DEPLOY_KEY }}"
       # Deploy hexo blog website.
       - name: Deploy
         id: deploy
