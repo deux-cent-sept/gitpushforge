@@ -22,7 +22,7 @@ jobs:
       run: npm install
 
     - name: Generate HEXO site
-      run: npm run generate
+      run: hexo generate
 
     - name: Deploy to GitHub Pages
-      run: npm run deploy
+      run: hexo deploy
