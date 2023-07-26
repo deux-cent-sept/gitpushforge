@@ -1,3 +1,4 @@
+https://git-push-forge.github.io/blog/072023/fixurl/
 https://git-push-forge.github.io/blog/072023/Readme-du-projet/
 https://git-push-forge.github.io/blog/072023/hello-world/
 https://git-push-forge.github.io/blog
