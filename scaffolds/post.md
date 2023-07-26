@@ -1,6 +1,6 @@
 ---
 title: {{ title }}
 date: {{ date }}
-tags:
-excerpt: {{ excerpt }}
+tags: <Ajoutez vos tags>
+excerpt: <Rédigez cet extrait>
 ---
