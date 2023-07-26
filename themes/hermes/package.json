@@ -4,7 +4,8 @@
   "description": "A hexo theme inspired by vuejs.org",
   "main": "index.js",
   "scripts": {
-    "sass": "gulp watch"
+    "sass": "gulp sass",
+    "watch": "gulp watch"
   },
   "repository": {
     "type": "git",

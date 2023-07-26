@@ -1,12 +1,12 @@
-name: Deploy Blog
+name: Build
 
 on:
   push:
-    branches:
-      - main
+    branches: #Any branch
+      - '*'
 
 jobs:
-  deploy:
+  build-css:
     runs-on: ubuntu-latest
 
     steps:
@@ -21,8 +21,5 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Generate HEXO site
-      run: npm run generate
-
-    - name: Deploy to GitHub Pages
-      run: npm run deploy
+    - name: Build CSS
+      run: make css
