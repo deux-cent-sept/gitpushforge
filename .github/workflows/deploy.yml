@@ -27,6 +27,11 @@ jobs:
     - name: Generate HEXO site
       run: hexo generate
 
+    - name: Configure Git identity
+      run: |
+        git config --global user.email "mezianev@hotmail.fr"
+        git config --global user.name "VincentMeziane"
+
     - name: Deploy to GitHub Pages
       env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
