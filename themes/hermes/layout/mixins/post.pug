@@ -12,13 +12,13 @@ mixin posts()
             li.post-list-item
                 article.post-block
                     h2.post-title
-                        a.post-title-link(href= full_url_for(item.path))
+                        a.post-title-link(href= url_for(item.path))
                             != item.title
                     +postInfo(item)
                     if item.excerpt
                         .post-content
                             != item.excerpt
-                        a.read-more(href= full_url_for(item.path))!= __('more')
+                        a.read-more(href= url_for(item.path))!= __('more')
                     else
                         .post-content
                             != item.content
