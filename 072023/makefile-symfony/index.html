@@ -55,12 +55,11 @@
 <li><p><strong>Variables</strong> : Vous pouvez déclarer des variables et les utiliser partout dans le fichier. La déclaration est simple <code>VARIABLE = valeur</code> puis <code>$(VARIABLE)</code> afin de l’utiliser<br>Par exemple : </p>
  <figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">PHP = php</span><br><span class="line">SYMFONY = <span class="variable">$(PHP)</span> bin/console</span><br><span class="line"></span><br><span class="line"><span class="section">database:</span></span><br><span class="line">	<span class="variable">$(SYMFONY)</span> doctrine:database:create --if-not-exists</span><br></pre></td></tr></table></figure>
 <p> Il existe également des variables générique, la plus intéressante pour nous étant <code>$@</code> qui représente la cible courante.</p>
- <figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">   database:</span><br><span class="line">   	@echo <span class="string">&quot;J&#x27;éxécute la commande <span class="variable">$@</span>&quot;</span></span><br><span class="line">   	@<span class="variable">$(SYMFONY)</span> doctrine:database:create --if-not-exists</span><br><span class="line"></span><br><span class="line"><span class="comment"># J&#x27;éxécute la commande database</span></span><br></pre></td></tr></table></figure>
+ <figure class="highlight makefile"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="section">database:</span></span><br><span class="line">	@echo <span class="string">&quot;J&#x27;éxécute la commande <span class="variable">$@</span>&quot;</span></span><br><span class="line">	@<span class="variable">$(SYMFONY)</span> doctrine:database:create --if-not-exists</span><br><span class="line"></span><br><span class="line"><span class="comment"># J&#x27;éxécute la commande database</span></span><br></pre></td></tr></table></figure>
 <blockquote>
 <p>☝ J’en profite pour introduire un autre outil qui est le <code>@</code> en début de commande. Par defaut, make affichera les commandes qui sont éxécutées, mais vous pouvez les dissimuler ainsi pour plus d’esthétisme. Et comme j’aime ce qui est esthétique, je vais le mettre absolument partout au profit d’une description de ce qui est lancé comme ici.</p>
 </blockquote>
-<ul>
-<li><p>Les autres variables génériques</p>
+<p> Les autres variables génériques</p>
 <table>
 <thead>
 <tr>
@@ -90,14 +89,8 @@
 </tr>
 </tbody></table>
 </li>
-</ul>
-</li>
 <li><p><strong>Fonctions</strong> : Elles nous serviront très peu pour nos usages. Je vous laisse donc libre de les explorer mais je ne les détaillerai pas ici. Sachez seulement qu’on les utilise ainsi : <code>$(fonction argument1,argument2)</code> , qu’il en existe beaucoup mais qu’il est aussi possible d’en définir.</p>
-<ul>
-<li><p>Une liste de fonctions qui peuvent être intéressantes</p>
-<p>  <a target="_blank" rel="noopener" href="https://www.gnu.org/software/make/manual/html_node/Functions.html">https://www.gnu.org/software/make/manual/html_node/Functions.html</a></p>
-</li>
-</ul>
+<p> Une liste de fonctions qui peuvent être intéressantes :<br> <a target="_blank" rel="noopener" href="https://www.gnu.org/software/make/manual/html_node/Functions.html">https://www.gnu.org/software/make/manual/html_node/Functions.html</a></p>
 </li>
 </ol>
 <h2 id="Organiser-son-Makefile"><a href="#Organiser-son-Makefile" class="headerlink" title="Organiser son Makefile"></a>Organiser son Makefile</h2><p>Pour bien structurer notre Makefile, nous allons suivre cette organisation :</p>
